@@ -1,0 +1,39 @@
+.spacer{
+    flex : 1 1 auto;
+}
+
+.header{
+    display: flex;
+}
+
+span{
+    margin-top: 8px;
+}
+
+mat-sidenav-container{
+    height:100vh;
+}
+
+.sidemenu{
+    display: none;
+}
+
+mat-sidenav{
+    color: black;
+    width: 200px;
+}
+
+@media only screen and (max-width: 800px){
+    .sidemenu{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .spacer{
+        display: none;
+    }
+
+}

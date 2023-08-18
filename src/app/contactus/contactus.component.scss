@@ -1,0 +1,72 @@
+
+mat-card{
+    float: none; 
+    margin: 0 auto; 
+    margin-bottom: 2rem; 
+    width: 80%;
+    border-radius: 60px; 
+    background-color: transparent;
+    height: fit-content;
+}
+
+.rowmatcard{
+    background-image: url(../../assets/contactus.jpg); 
+    height: 50rem;
+    background-size: 100% 100%;
+}
+
+.brands{
+    margin-top: 5rem;
+}
+
+mat-card-content{
+    text-align: center;
+    h1{
+        color: green;
+    }
+    p{
+        color: red;
+    }
+}
+
+.address{
+    margin-top: 2rem;
+}
+
+iframe{
+    height: 500px;
+    width: 600px;
+}
+
+.matcard{
+    margin-top: 5rem;
+}
+
+.followus{
+    text-align: right; 
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    iframe{
+        height: fit-content;
+        width: 100%;
+    }
+
+    .rowmatcard{
+        height: 100%;
+        background-size: auto;
+    }
+
+    .matcard{
+        margin-top: 0rem;
+    }
+
+    .brands{
+        margin-top: 0rem;
+    }
+
+    .followus{
+        display: none;
+    }
+}
