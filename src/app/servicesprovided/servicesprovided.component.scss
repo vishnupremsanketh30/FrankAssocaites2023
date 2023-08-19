@@ -1,0 +1,33 @@
+.container-fluid{
+    margin-top: 5vh;
+}
+
+.row{
+    margin-bottom: 2vh;
+}
+
+.col-lg-4{
+    margin-bottom: 2vh;
+}
+
+mat-card{
+    height: 70vh;
+    background-color: cadetblue;
+}
+
+mat-card-content{
+    background-color: cadetblue;
+}
+p{
+    color: white;
+    font-family: "Hoefler Text";
+    font-size: 1.3rem;
+    font-style: italic;
+}
+
+@media screen and (max-width: 800px)  {
+
+    mat-card-content{
+        height: fit-content;
+    }
+}
